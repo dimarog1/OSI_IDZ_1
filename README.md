@@ -126,4 +126,4 @@ gcc receiver.c -o r.out
 
 # Оценка 10
 
-[ПОСМОТРИТЕ ЭТО ВИДЕО!!!](https://youtu.be/dQw4w9WgXcQ?si=xbUy1bKXEHjw7zXD)
+[10-й номер лежит в отдельном репозитории по этой ссылке](https://youtu.be/dQw4w9WgXcQ?si=xbUy1bKXEHjw7zXD)
