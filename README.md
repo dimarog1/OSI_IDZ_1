@@ -123,3 +123,7 @@ gcc receiver.c -o r.out
 ```console
 ./r.out
 ```
+
+# Оценка 10
+
+[ПОСМОТРИТЕ ЭТО ВИДЕО!!!](https://youtu.be/dQw4w9WgXcQ?si=xbUy1bKXEHjw7zXD)
