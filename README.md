@@ -8,6 +8,22 @@
 Задание: Разработать программу, заменяющую все строчные гласные буквы
 в заданной ASCII–строке заглавными.
 
+## Тестовые файлы
+Тест 1: Hello, World! This is a test file.\
+Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
+
+Тест 2: \
+Ответ 2:
+
+Тест 3: aeiouy\
+Ответ 3: AEIOUY
+
+Тест 4: bcdfghjklmnpqrstvwxyz\
+Ответ 4: bcdfghjklmnpqrstvwxYz
+
+Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
+Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
+
 ## Документация
 
 Компиляция программы:
@@ -26,22 +42,6 @@ gcc {mark}/main.c
 Разработка программы, осуществляющей взаимодействие между тремя родственными процессами одной программы с использованием 
 неименованных каналов.
 
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2: 
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
-
 # Оценка 5
 
 ## Условие задачи
@@ -49,65 +49,17 @@ gcc {mark}/main.c
 оценку необходимо разработать еще одну программу, в которой взаимодействие между тремя родственными процессами
 одной программы осуществляется через именованные каналы.
 
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2:
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
-
 # Оценка 6
 
 ## Условие задачи
 В дополнение к требованиям на предыдущую оценку разработать новую программу, которая осуществляет взаимодействие между 
 двумя родственными процессами одной программы с использованием неименованных каналов
 
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2:
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
-
 # Оценка 7
 
 ## Условие задачи
 В дополнение к требованиям на предыдущую оценку разработать программу, которая осуществляет взаимодействие между двумя 
 родственными процессами одной программы с использованием именованных каналов
-
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2:
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
 
 # Оценка 8
 
@@ -140,22 +92,6 @@ gcc receiver.c -o r.out
 ./r.out
 ```
 
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2:
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
-
 # Оценка 9
 
 ## Условие задачи
@@ -187,19 +123,3 @@ gcc receiver.c -o r.out
 ```console
 ./r.out
 ```
-
-## Тестовые файлы
-Тест 1: Hello, World! This is a test file.\
-Ответ 1: HEllO, WOrld! ThIs Is A tEst fIlE.
-
-Тест 2: \
-Ответ 2:
-
-Тест 3: aeiouy\
-Ответ 3: AEIOUY
-
-Тест 4: bcdfghjklmnpqrstvwxyz\
-Ответ 4: bcdfghjklmnpqrstvwxYz
-
-Тест 5: HEllO, World! 1234567890 !!!!!!!!!!!!!!\
-Ответ 5: HEllO, WOrld! 1234567890 !!!!!!!!!!!!!!
