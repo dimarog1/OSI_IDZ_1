@@ -5,7 +5,7 @@
 
 #include "../logic.h" // Заголовочный файл с функцией обработки строк
 
-#define BUFF_SIZE 5000 // Определение размера буфера
+#define BUFF_SIZE 128 // Определение размера буфера
 
 int main() {
     char *pipe1 = "/tmp/pipe1";

@@ -4,7 +4,7 @@
 #include <fcntl.h>
 #include <sys/stat.h>
 
-#define BUFF_SIZE 5000 // Определение размера буфера
+#define BUFF_SIZE 128 // Определение размера буфера
 
 int main(const int argc, char *argv[]) {
     if (argc != 3) {
@@ -49,7 +49,7 @@ int main(const int argc, char *argv[]) {
         ssize_t count2 = read(pipe_fd2, buffer, BUFF_SIZE);
 
         int file = open(argv[2], O_WRONLY | O_CREAT | O_APPEND, 0666);
-        if (write(file, buffer, count2 - 1) != -1) {
+        if (write(file, buffer, count2) != -1) {
             printf("Data written to output file successfully\n");
         } else {
             perror("Error writing to file");
